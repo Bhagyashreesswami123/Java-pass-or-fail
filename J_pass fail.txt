@@ -1,0 +1,25 @@
+
+Up vote
+0
+Down vote
+class CheckPassFail
+{
+int m;
+
+CheckPassFail(int mark){
+    m = mark;
+}
+
+public void gradeCheck(int mark){
+if(mark >= 50){
+System.out.println("Pass");
+}
+else{
+System.out.println("Fail");
+}}
+
+public static void main(String[] args) {
+CheckPassFail grade = new CheckPassFail(66);
+grade.gradeCheck(66);
+}}
+share improve 
